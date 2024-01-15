@@ -80,7 +80,6 @@ public class BillsService {
             e.printStackTrace();
         }
 
-
         return response.body();
     }
 

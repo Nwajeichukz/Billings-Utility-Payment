@@ -14,7 +14,6 @@ public class AppResponse<T> {
     private int status;
     private String message;
 
-
     private final String timeStamp = String.valueOf(LocalDateTime.now());
 
     private T data;

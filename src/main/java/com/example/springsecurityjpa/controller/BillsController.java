@@ -18,6 +18,7 @@ public class BillsController {
         return billsService.createBill(billsDto);
     }
 
+
     @GetMapping
     public String billsCategory(){
         return billsService.getBillCategory();
