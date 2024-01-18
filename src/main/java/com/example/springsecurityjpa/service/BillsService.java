@@ -2,22 +2,15 @@ package com.example.springsecurityjpa.service;
 
 
 import com.example.springsecurityjpa.configuration.AppConfig;
-import com.example.springsecurityjpa.dto.AppResponse;
 import com.example.springsecurityjpa.dto.BillsDto;
-import com.example.springsecurityjpa.dto.BillsPaymentResponse;
-import com.example.springsecurityjpa.exception.ApiException;
 import com.google.gson.Gson;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.*;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.util.Map;
-import java.util.Objects;
 
 @Slf4j
 @Service
