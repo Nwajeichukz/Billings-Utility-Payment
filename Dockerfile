@@ -1,5 +1,3 @@
-For reasons i can't tell, i no fit raise pr but see the new content of the Dockerfile
-
 FROM public.ecr.aws/docker/library/maven:3.6-jdk-11 AS build
 
 COPY src /app/src
