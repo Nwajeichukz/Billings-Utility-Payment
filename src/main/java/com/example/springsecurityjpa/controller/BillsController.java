@@ -13,13 +13,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class BillsController {
     private final BillsService billsService;
 
-    @PostMapping
+    @PostMapping("/create-bill")
     public String createBills(@RequestBody BillsDto billsDto){
         return billsService.createBill(billsDto);
     }
 
 
-    @GetMapping
+    @GetMapping("/get-category")
     public String billsCategory(){
         return billsService.getBillCategory();
     }
